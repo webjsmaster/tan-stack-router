@@ -1,0 +1,16 @@
+.button {
+  @apply ml-2 flex items-center flex-initial;
+}
+
+.drag {
+  @apply text-red-400;
+}
+
+.image {
+  @apply -rotate-90 transition-all w-5 h-5 cursor-pointer;
+}
+
+.imageActive {
+  @apply rotate-0 transition-all;
+}
+

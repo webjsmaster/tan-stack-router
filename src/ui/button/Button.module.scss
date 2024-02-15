@@ -1,0 +1,24 @@
+.btn {
+  @apply border border-solid border-blue-950 rounded px-4 py-2 active:scale-95;
+
+  div {
+    @apply text-2xl text-black uppercase;
+  }
+}
+
+.btnError {
+  @apply rounded px-4 py-2 bg-red-400 active:scale-95;
+
+  div {
+    @apply text-2xl text-white uppercase;
+  }
+}
+
+
+.btnWar {
+  @apply rounded px-4 py-2 bg-yellow-700 active:scale-95;
+
+  div {
+    @apply text-2xl text-white uppercase;
+  }
+}
